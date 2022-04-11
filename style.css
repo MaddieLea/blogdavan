@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+}
+#teste{
+    height: 100vh;
+   
+}
+
+.container  {
+    display: flex;
+    position: relative;
+    margin-top: 5vw;
+    width: 93%;
+    margin-left: 4vw;
+    height: 70vh; 
+}
+
+#fotoVan {
+    display: flex;
+    flex-direction: column;
+    justify-content: initial;
+    width: 98vw;
+    height: 90vw;
+    border-radius: 10px;
+}
+#vanFoto {
+    width: 100vw; 
+    height: 100vw;
+    border-radius: 10px;
+    object-fit: cover;
+}
+/* .box-rectangles{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    left: 1em;
+    top: 50%;
+    width:125%;
+    height: 125%;
+    margin-left: 2.5rem;
+} */
+
+#movimentacaoSuper {
+    background: url('https://cdn.discordapp.com/attachments/960639624462622750/960639649523585034/unknown.png?size=4096');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 4vw;
+    width: 34.5vw;
+    max-height: 100%;
+    height: 80vh;
+    border-radius: 45px 15px 50px 15px;
+}
+
+/* #retangulo-red{
+    width: 25%;
+    height: 100%;
+    border: 2px solid;
+    transform: rotate(32deg);
+    margin: 1.3rem;
+    border-radius: 8px;
+    background: #fc7e7e;
+}
+
+#retangulo-red:hover{
+    border: 2px solid goldenrod;
+
+}
+
+#retangulo-gold{
+    width: 25%;
+    height: 100%;
+    border: 2px solid;
+    transform: rotate(32deg);
+    margin: 1.3rem;
+    border-radius: 8px;
+    background: rgb(249, 249, 177);
+}
+
+#retangulo-black{
+    width: 2%;
+    height: 100%;
+    border: 2px solid;
+    transform: rotate(32deg);
+    margin: 1.3rem;
+    border-radius: 8px;
+    background-color: rgb(193, 248, 248);
+} */
+
+.container-2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 15.5vw;
+    width: 35vw; 
+    height: 50vh;
+    border-radius: 6px;
+    padding-bottom: 30vh;
+    padding-left: 5vw;
+}
+
+.text{
+    font-family: 'Montserrat', sans-serif;
+    padding: 3vh;
+    font-size: 0.9em;
+    border-radius: 8px;
+    
+
+}
+
+.padding-of {
+    font-size: 18px;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    text-transform: uppercase;
+}
+
+p{
+    text-align: center;
+}
